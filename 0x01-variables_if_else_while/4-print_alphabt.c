@@ -1,10 +1,10 @@
-#include <stdio.h>
+lude <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 /**
  * main - Prints the alphabet without q and e.
- * d
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -13,11 +13,11 @@ int main(void)
 
 	for (i = 97; i < 123; i++)
 	{
-	if (i != 101 && i != 113)
+		if (i != 101 && i != 113)
 		{
-			putchar(i);		}
+			putchar(i);
+		}
 	}
 	putchar('\n');
 	return (0);
 }
-
