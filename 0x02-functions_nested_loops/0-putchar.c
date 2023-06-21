@@ -1,15 +1,22 @@
-#include"main.h"
+#include "main.h"
+	/**
+	 * main - print _putchar
+	 * is written by mbah
+	 * Return: 0
+	 */
 
-int main (void)
-{
-	_putvhar(_);
-	_putvhar(p);
-	_putvhar(u);
-	_putvhar(t);
-	_putvhar(c);
-	_putvhar(h);
-	_putvhar(a);
-	_putvhar(r);
-	_putvhar(\n);
-	return 0;
-}
+
+	int main(void)
+	{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
+	}
+
