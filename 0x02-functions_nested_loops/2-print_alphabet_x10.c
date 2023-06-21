@@ -9,11 +9,11 @@
 	{
 		char ch;
 		int i;
-
+	//add
 
 		i = 0;
 
-
+	//condition
 		while (i < 10)
 		{
 			ch = 'a';
