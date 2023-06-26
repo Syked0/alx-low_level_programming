@@ -1,18 +1,17 @@
-#include <stdio.h>
+#include <string.h>
 #include "main.h"
-
 /**
- * _strlen - length of a string
- * @s: pointer
- * Return: number of caracter
+ * _strlen - check the code for Holberton School students.
+ * @s: variable.
+ *
+ *Return: the lenght of the string
  */
-
 int _strlen(char *s)
 {
-int j = 0;
-for (int i = 0; s[i] != '\0'; i++)
+int i;
+for (i = 0; s[i] != '\0'; i++)
 {
-j++;
+continue;
 }
-return (j);
+return (i);
 }
